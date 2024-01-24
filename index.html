@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="px-32">
+    <header class="md:px-32 px-5">
         <div>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -77,13 +77,13 @@
             </div>
         </div>
     </header>
-    <main class="px-32">
+    <main class="md:px-32 px-5">
         <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
 
         <!-- Professional Hockeys Club -->
 
-        <div class=" text-center md: py-2 px-32 justify-center text-center">
+        <div class=" text-center py-2 md:px-32 justify-center ">
             <h1 class="font-bold text-sm ">Professional Hockeys Club</h1>
             <p>"Elite hockey club showcasing top talent, precision teamwork,
                 and relentless pursuit of victory. Our passion for
@@ -92,7 +92,7 @@
         </div>
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
         <!-- progressbar -->
-        <div class="flex gap-2 text-center py-7 grid lg:grid-cols-4">
+        <div class="md:flex gap-5 text-center md:py-7 ">
             <div>
                 <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
                 <h3 class="font-bold text-sm">Prayer Facility</h3>
@@ -129,9 +129,10 @@
 
         <!-- All Program -->
 
-        <div>
-            <div class="flex justify-evenly grid grid-cols-1 gap-2 justify-center md: grid-cols-2 ">
-                <div class="card w-96 bg-base-100 shadow-xl image-full ">
+        <div class="">
+            <div class=" md:flex justify-between gap-5 pb-5">
+
+                <div class="card md:w-1/2 bg-base-100 shadow-xl image-full mb-5 md:mb-0">
                     <figure><img src="./Images/2.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Junior Program</h2>
@@ -142,7 +143,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 shadow-xl image-full grid grid-cols-1">
+                
+                <div class="card md:w-1/2 bg-base-100 shadow-xl image-full ">
                     <figure><img src="./Images/3.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Teenager Program</h2>
@@ -153,9 +155,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="card w-96 bg-base-100 image-full grid-cols-1 md:grid grid-row-2">
+
+                
+            </div>
+            <div class=" md:flex justify-center">
+                <div class="card  bg-base-100 image-full">
                     <figure><img src="./Images/4.png" alt="Shoes" /></figure>
-                    <div class="card-body">
+                    <div class="card-body mt-auto p-10 md:w-1/2">
                         <h2 class="card-title">Teenager Program</h2>
                         <p>"Elevating skills and shaping character, our Teenager Program empowers young athletes for
                             success on the journey to excellence."</p>
@@ -165,6 +171,8 @@
                     </div>
                 </div>
             </div>
+            
+
         </div>
 
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
@@ -178,7 +186,7 @@
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
 
         <!-- Products section -->
-        <section class="grid gap-3 py-8 text-lg leading-6 text-gray-800 md:gap-8 md:grid-cols-2">
+        <!-- <section class="grid gap-3 py-8 text-lg leading-6 text-gray-800 md:gap-8 md:grid-cols-2">
             <div>
                 <div class="hero border-solid border-red-500">
                     <div class="hero-content flex-col lg:flex-row">
@@ -187,7 +195,7 @@
 
                         </div>
                         <div>
-                            <!-- icon -->
+                            
                             <div class="">
                                 <i class="fa-solid fa-star text-amber-400 "></i> 5.0
                                 <i class="fa-regular fa-eye"></i>2.0M
@@ -215,14 +223,14 @@
             </div>
 
             <div>
-                <div class="hero min-h-screen ">
+                <div class="hero md:min-h-screen ">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
 
                         </div>
                         <div>
-                            <!-- icon -->
+                            
                             <div class="">
                                 <i class="fa-solid fa-star text-amber-400 "></i> 5.0
                                 <i class="fa-regular fa-eye"></i>2.0M
@@ -249,14 +257,14 @@
                 </div>
             </div>
             <div>
-                <div class="hero min-h-screen ">
+                <div class="hero md:min-h-screen ">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
 
                         </div>
                         <div>
-                            <!-- icon -->
+                            
                             <div class="">
                                 <i class="fa-solid fa-star text-amber-400 "></i> 5.0
                                 <i class="fa-regular fa-eye"></i>2.0M
@@ -283,14 +291,14 @@
                 </div>
             </div>
             <div>
-                <div class="hero min-h-screen ">
+                <div class="hero md:min-h-screen ">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
 
                         </div>
                         <div>
-                            <!-- icon -->
+                            
                             <div class="">
                                 <i class="fa-solid fa-star text-amber-400 "></i> 5.0
                                 <i class="fa-regular fa-eye"></i>2.0M
@@ -317,14 +325,14 @@
                 </div>
             </div>
             <div>
-                <div class="hero min-h-screen ">
+                <div class="hero md:min-h-screen ">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
 
                         </div>
                         <div>
-                            <!-- icon -->
+                            
                             <div class="">
                                 <i class="fa-solid fa-star text-amber-400 "></i> 5.0
                                 <i class="fa-regular fa-eye"></i>2.0M
@@ -351,14 +359,14 @@
                 </div>
             </div>
             <div>
-                <div class="hero min-h-screen ">
+                <div class="hero md:min-h-screen ">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
 
                         </div>
                         <div>
-                            <!-- icon -->
+                            
                             <div class="">
                                 <i class="fa-solid fa-star text-amber-400 "></i> 5.0
                                 <i class="fa-regular fa-eye"></i>2.0M
@@ -384,6 +392,124 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+
+        <section class="grid gap-6 py-8 leading-6 text-gray-800 md:grid-cols-2">
+                <div class=" md:flex gap-2 border-[#1313181A] border-2 rounded-lg p-2 ">
+                    <div class="">
+                        <img src="./Images/10.png" class="md:max-w-sm min-w-full rounded-lg " />
+                    </div>
+        
+                    <div>
+                        <div class=" ">
+                            <i class="fa-solid fa-star text-amber-400 "></i> 5.0
+                            <i class="fa-regular fa-eye px-1"></i>2.0M
+                            <i class="fa-regular fa-heart"></i> 132k
+                        </div>
+                        <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-2">"Dribble through international excitement with our World Cup Flags
+                            Football." </p>
+                        <div class="flex gap-3 ">
+                            <div>
+                                <h2 class="text-[#FF4240] font-bold text-sm">
+                                    Price - $22.00
+                                </h2>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class=" flex gap-4">
+                    <div>
+                        <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    </div>
+        
+                    <div>
+                        <div class=" ">
+                            <i class="fa-solid fa-star text-amber-400 "></i> 5.0
+                            <i class="fa-regular fa-eye px-1"></i>2.0M
+                            <i class="fa-regular fa-heart"></i> 132k
+                        </div>
+                        <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-2">"Dribble through international excitement with our World Cup Flags
+                            Football." </p>
+                        <div class="flex gap-3 ">
+                            <div>
+                                <h2 class="text-[#FF4240] font-bold text-sm">
+                                    Price - $22.00
+                                </h2>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class=" flex gap-4">
+                    <div>
+                        <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    </div>
+        
+                    <div>
+                        <div class=" ">
+                            <i class="fa-solid fa-star text-amber-400 "></i> 5.0
+                            <i class="fa-regular fa-eye px-1"></i>2.0M
+                            <i class="fa-regular fa-heart"></i> 132k
+                        </div>
+                        <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-2">"Dribble through international excitement with our World Cup Flags
+                            Football." </p>
+                        <div class="flex gap-3 ">
+                            <div>
+                                <h2 class="text-[#FF4240] font-bold text-sm">
+                                    Price - $22.00
+                                </h2>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class=" flex gap-4">
+                    <div>
+                        <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    </div>
+        
+                    <div>
+                        <div class=" ">
+                            <i class="fa-solid fa-star text-amber-400 "></i> 5.0
+                            <i class="fa-regular fa-eye px-1"></i>2.0M
+                            <i class="fa-regular fa-heart"></i> 132k
+                        </div>
+                        <h1 class="text-2xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-2">"Dribble through international excitement with our World Cup Flags
+                            Football." </p>
+                        <div class="flex gap-3 ">
+                            <div>
+                                <h2 class="text-[#FF4240] font-bold text-sm">
+                                    Price - $22.00
+                                </h2>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+
         </section>
         <!-- 
             <div class="w-full lg:w-1/2 p-3">
@@ -417,11 +543,11 @@
             <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
 
 
-            <div class="flex">
-                <div class="">
+            <div class=" md:flex">
+                <div class="md:w-1/2">
                    <img src="./Images/11.png" alt="">
                 </div>
-                <div>
+                <div class="md:w-1/2">
                     <div tabindex="0" class="collapse collapse-plus border border-base-300">
                         <div class="collapse-title text-xl font-medium">
                           Our Equipment
