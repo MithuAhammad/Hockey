@@ -57,8 +57,8 @@
             </div>
         </div>
 
-        <div class="">
-            <div class="carousel  w-full">
+        <div class="md:relative ">
+            <div class="carousel w-full h-56 md:h-[75vh] ">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./Images/1.png" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -73,23 +73,27 @@
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-
             </div>
-        </div>
 
-        <div class="text-end bg-black text-white p-7 rounded-lg">
-            <h1 class="">Meet all the heroes from the field</h1>
-            <p class="pt-3">Explore a gathering of heroes in the field, each showcasing their unique strengths and contributions. Uncover stories of dedication and impact as they make a difference in their respective domains.</p>
+            <div class="md:-right-96 md:-mt-48 z-50 md:absolute mt-4">
+                <div class="text-start md:w-1/2 w-full bg-black text-white p-7 rounded-lg ">
+                    <h1 class=" font-semibold text-sm md:text-base">Meet all the heroes from the field</h1>
+                    <p class="pt-3 text-slate-400 text-sm md:text-base">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                </div>
+            </div>
+
         </div>
+        
+        
+        
+
     </header>
     <main class="md:px-32 px-5">
         <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-
         <!-- Professional Hockeys Club -->
-
         <div class=" text-center py-2 md:px-32 justify-center ">
-            <h1 class="font-bold text-sm ">Professional Hockeys Club</h1>
+            <h1 class="font-extrabold text-2xl ">Professional Hockeys Club</h1>
             <p>"Elite hockey club showcasing top talent, precision teamwork,
                 and relentless pursuit of victory. Our passion for
                 the puck drives us to excellence on the ice.
@@ -104,19 +108,19 @@
                 <p>Every Muslim is expected to pray five times a day and thus access to prayer facilities is of utmost
                     importance to a Muslim traveller.</p>
             </div>
-            <div class=" mt-10 ">
+            <div class=" mt-10 md:mt-0">
                 <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
                 <h3 class="font-bold text-sm">Experienced Coachy</h3>
                 <p>Fulfilling the duties and responsibilities of a hockey coach requires attention to detail, leadership
                     skills, and extensive knowledge of coaching techniques.</p>
             </div>
-            <div class=" mt-10">
+            <div class=" mt-10 md:mt-0">
                 <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
                 <h3 class="font-bold text-sm">Senior Player</h3>
                 <p>"Experienced strategist with a knack for turning challenges into opportunities, bringing a wealth of
                     seasoned expertise to the team."</p>
             </div>
-            <div class=" mt-10">
+            <div class=" mt-10 md:mt-0">
                 <div class="radial-progress text-sky-500" style="--value:80;" role="progressbar">80%</div>
                 <h3 class="font-bold text-sm ">Training Ground</h3>
                 <p>"Transforming potential into prowess, where dedication meets development on the training ground."</p>
@@ -126,7 +130,7 @@
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
 
         <div class="justify-center text-center">
-            <h1 class="font-bold text-sm">Program Sections</h1>
+            <h1 class="font-bold text-2xl">Program Sections</h1>
             <p>"Structured modules paving the path to mastery in our program sections."</p>
         </div>
 
@@ -138,7 +142,7 @@
             <div class=" md:flex justify-between gap-5 pb-5">
 
                 <div class="card md:w-1/2 bg-base-100 shadow-xl image-full mb-5 md:mb-0">
-                    <figure><img src="./Images/2.png" alt="Shoes" /></figure>
+                    <figure><img class=" w-full" src="./Images/2.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Junior Program</h2>
                         <p>"Fostering budding talent and igniting a love for the game in our dynamic Junior Program."
@@ -150,7 +154,7 @@
                 </div>
                 
                 <div class="card md:w-1/2 bg-base-100 shadow-xl image-full ">
-                    <figure><img src="./Images/3.png" alt="Shoes" /></figure>
+                    <figure><img class=" w-full" src="./Images/3.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Teenager Program</h2>
                         <p>"Elevating skills and shaping character, our Teenager Program empowers young athletes for
@@ -164,8 +168,8 @@
                 
             </div>
             <div class=" md:flex justify-center">
-                <div class="card  bg-base-100 image-full">
-                    <figure><img src="./Images/4.png" alt="Shoes" /></figure>
+                <div class="card bg-base-100 image-full">
+                    <figure><img class=" w-full" src="./Images/4.png" alt="Shoes" /></figure>
                     <div class="card-body mt-auto p-10 md:w-1/2">
                         <h2 class="card-title">Teenager Program</h2>
                         <p>"Elevating skills and shaping character, our Teenager Program empowers young athletes for
@@ -176,8 +180,6 @@
                     </div>
                 </div>
             </div>
-            
-
         </div>
 
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
@@ -185,222 +187,13 @@
         <!--  New Products section -->
 
         <div class=" text-center">
-            <h1 class="font-extrabold">Our New Products</h1>
+            <h1 class="font-extrabold text-2xl">Our New Products</h1>
             <p>"Unveiling innovation and quality, our new products redefine expectations, offering cutting-edge
                 solutions for a dynamic world."</p>
         </div>
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
 
-        <!-- Products section -->
-        <!-- <section class="grid gap-3 py-8 text-lg leading-6 text-gray-800 md:gap-8 md:grid-cols-2">
-            <div>
-                <div class="hero border-solid border-red-500">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-
-                        </div>
-                        <div>
-                            
-                            <div class="">
-                                <i class="fa-solid fa-star text-amber-400 "></i> 5.0
-                                <i class="fa-regular fa-eye"></i>2.0M
-
-                                <i class="fa-regular fa-heart"></i> 132k
-
-                            </div>
-
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
-                            <p class="py-6">"Dribble through international excitement with our World Cup Flags
-                                Football." </p>
-                            <div class="flex gap-3">
-                                <div>
-                                    <h2 class="text-[#FF4240] font-bold text-sm ">
-                                        Price - $22.00
-                                    </h2>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="hero md:min-h-screen ">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-
-                        </div>
-                        <div>
-                            
-                            <div class="">
-                                <i class="fa-solid fa-star text-amber-400 "></i> 5.0
-                                <i class="fa-regular fa-eye"></i>2.0M
-
-                                <i class="fa-regular fa-heart"></i> 132k
-
-                            </div>
-
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
-                            <p class="py-6">"Dribble through international excitement with our World Cup Flags
-                                Football." </p>
-                            <div class="flex gap-3">
-                                <div>
-                                    <h2 class="text-[#FF4240] font-bold text-sm">
-                                        Price - $22.00
-                                    </h2>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="hero md:min-h-screen ">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-
-                        </div>
-                        <div>
-                            
-                            <div class="">
-                                <i class="fa-solid fa-star text-amber-400 "></i> 5.0
-                                <i class="fa-regular fa-eye"></i>2.0M
-
-                                <i class="fa-regular fa-heart"></i> 132k
-
-                            </div>
-
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
-                            <p class="py-6">"Dribble through international excitement with our World Cup Flags
-                                Football." </p>
-                            <div class="flex gap-3">
-                                <div>
-                                    <h2 class="text-[#FF4240] font-bold text-sm">
-                                        Price - $22.00
-                                    </h2>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="hero md:min-h-screen ">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-
-                        </div>
-                        <div>
-                            
-                            <div class="">
-                                <i class="fa-solid fa-star text-amber-400 "></i> 5.0
-                                <i class="fa-regular fa-eye"></i>2.0M
-
-                                <i class="fa-regular fa-heart"></i> 132k
-
-                            </div>
-
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
-                            <p class="py-6">"Dribble through international excitement with our World Cup Flags
-                                Football." </p>
-                            <div class="flex gap-3">
-                                <div>
-                                    <h2 class="text-[#FF4240] font-bold text-sm">
-                                        Price - $22.00
-                                    </h2>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="hero md:min-h-screen ">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-
-                        </div>
-                        <div>
-                            
-                            <div class="">
-                                <i class="fa-solid fa-star text-amber-400 "></i> 5.0
-                                <i class="fa-regular fa-eye"></i>2.0M
-
-                                <i class="fa-regular fa-heart"></i> 132k
-
-                            </div>
-
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
-                            <p class="py-6">"Dribble through international excitement with our World Cup Flags
-                                Football." </p>
-                            <div class="flex gap-3 ">
-                                <div>
-                                    <h2 class="text-[#FF4240] font-bold text-sm">
-                                        Price - $22.00
-                                    </h2>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="hero md:min-h-screen ">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="./Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
-                        <div>
-
-                        </div>
-                        <div>
-                            
-                            <div class="">
-                                <i class="fa-solid fa-star text-amber-400 "></i> 5.0
-                                <i class="fa-regular fa-eye"></i>2.0M
-
-                                <i class="fa-regular fa-heart"></i> 132k
-
-                            </div>
-
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
-                            <p class="py-6">"Dribble through international excitement with our World Cup Flags
-                                Football." </p>
-                            <div class="flex gap-3 ">
-                                <div>
-                                    <h2 class="text-[#FF4240] font-bold text-sm">
-                                        Price - $22.00
-                                    </h2>
-                                </div>
-                                <div>
-                                    <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
+        
         <section class="grid gap-6 py-8 leading-6 text-gray-800 md:grid-cols-2">
                 <div class=" md:flex gap-2 border-[#1313181A] border-2 rounded-lg p-2 ">
                     <div class="">
@@ -588,7 +381,7 @@
         <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
         <section class=" ">
             <div class="text-center ">
-                <h1 class="font-bold text-xs">Clients Question</h1>
+                <h1 class="font-extrabold text-2xl">Clients Question</h1>
                 <p>"With a commitment to excellence, our diverse clientele is a testament to our tailored solutions and unwavering dedication, fostering enduring partnerships built on trust and results."</p>
             </div>
             <hr class="my-12 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
@@ -657,7 +450,7 @@
 
         <section>
            <div class="text-center">
-            <h1 class="text-2xl font-bold">Get In Touch</h1>
+            <h1 class="font-extrabold text-2xl">Get In Touch</h1>
             <p>"Connect with us today to explore limitless possibilities; our dedicated team awaits to turn your inquiries into extraordinary experiences, ensuring personalized attention and satisfaction."
             </p>
            </div>
@@ -686,40 +479,40 @@
                 </div>
             </div>
 
-            <div class="md:w-2/3 grid  md:grid-cols-2 gap-3 px-5">
-                <label class="form-control w-full max-w-xs">
+            <div class="md:w-2/3 md:grid md:grid-cols-2 gap-3 px-5">
+                <label class="form-control w-full ">
                     <div class="label">
                       <span class="label-text font-bold text-sm">Your Name</span>
                      
                     </div>
-                    <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                    <input type="text" placeholder="Enter your full name" class="input input-bordered w-full bg-[#13131808]" />
                     
                   </label>
 
-                  <label class="form-control w-full max-w-xs">
+                  <label class="form-control w-full ">
                     <div class="label">
                       <span class="label-text font-bold text-sm">Your Email</span>
                      
                     </div>
-                    <input type="text" placeholder="Enter your email" class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                    <input type="text" placeholder="Enter your email" class="input input-bordered w-full bg-[#13131808]" />
                     
                   </label>
 
-                  <label class="form-control w-full max-w-xs">
+                  <label class="form-control w-full ">
                     <div class="label">
                       <span class="label-text font-bold text-sm">Subject</span>
                      
                     </div>
-                    <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                    <input type="text" placeholder="Enter your subject" class="input input-bordered w-full bg-[#13131808]" />
                     
                   </label>
 
-                  <label class="form-control w-full max-w-xs">
+                  <label class="form-control w-full">
                     <div class="label">
                       <span class="label-text font-bold text-sm">Phone Number</span>
                      
                     </div>
-                    <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs bg-[#13131808]" />
+                    <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full bg-[#13131808]" />
                     
                   </label>
 
@@ -731,7 +524,7 @@
                     <textarea class="textarea textarea-bordered min-h-64 bg-[#13131808]" placeholder="Write your message"></textarea>
                      
                   </label>
-                  <button class=" col-span-2 bg-red-500 rounded-lg text-white mx-2 py-3 ">Send Message</button>
+                  <button class=" col-span-2 bg-red-500 rounded-lg text-white md:mx-2 mt-5 md:mt-0 h-10 w-full ">Send Message</button>
                   
             </div>
 
@@ -739,8 +532,8 @@
         </section>
         <section class="mt-6">
             <div class="text-center bg-[#13131808] py-5 rounded-md">
-                <h1>Social Media</h1>
-               <div class="text-center">
+                <h1 class=" font-bold text-lxl">Social Media</h1>
+               <div class=" text-xl">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-x-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
@@ -751,45 +544,50 @@
         </section>
     </main>
     <footer>
-        <footer class="footer mt-20 p-10 bg-[#131318] text-white">
-           <div>
+        <footer class=" mt-20 p-10 bg-[#131318] text-white">
+            
+            <div class=" grid grid-cols-2 md:grid-cols-4 text-center md:text-left gap-3 leading-8">
+
+           
+           <div class=" col-span-2 md:col-span-1">
             <h1 class="text-2xl font-bold">Get In Touch</h1>
-            <p>Feel free to reach out if you have any questions or need assistance!</p>
-            <div class="flex gap-2 mt-1">
+            <p>Feel free to reach out if you <br/> have any questions or need assistance!</p>
+            <div class="flex items-center justify-center md:justify-start mt-1">
                 <i class="fa-regular fa-envelope text-[#FF4240] m-1.5"></i>
                 <p>hockeys@support.com</p>
             </div>
-            <div class="flex gap-2">
+            <div class="flex items-center justify-center md:justify-start">
                 <i class="text-[#FF4240] fa-solid fa-phone m-1.5 "></i>
                 <p>(+62) 123-321-543</p>
             </div>
            </div>
+                <nav>
+                    <header class="footer-title">Company</header> 
+                    <p class="link link-hover">About us</p>
+                    <p class="link link-hover">Leadership</p>
+                    <p class="link link-hover">Careers</p>
+                    <p class="link link-hover">News & Article</p>
+                    <p class="link link-hover"> Legal Notice</p>
+                </nav> 
+                
+                <nav>
+                  <header class="footer-title">Support</header> 
+                  <p class="link link-hover">Help Center</p>
+                  <p class="link link-hover">FAQ</p>
+                  <p class="link link-hover">Ticket Support</p>
+                  <p class="link link-hover">Contact Us</p>
+                </nav> 
+      
 
-
-           <nav>
-            <header class="footer-title">Company</header> 
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Leadership</a>
-            <a class="link link-hover">Careers</a>
-            <a class="link link-hover">News & Article</a>
-            <a class="link link-hover"> Legal Notice</a>
-          </nav> 
-            
-            <nav>
-              <header class="footer-title">Support</header> 
-              <a class="link link-hover">Help Center</a>
-              <a class="link link-hover">FAQ</a>
-              <a class="link link-hover">Ticket Support</a>
-              <a class="link link-hover">Contact Us</a>
-            </nav> 
-            <nav>
+            <nav class=" col-span-2 md:col-span-1 mx-auto">
               <header class="footer-title">Services</header> 
-              <a class="link link-hover">Academy</a>
-              <a class="link link-hover">Group Lesson</a>
-              <a class="link link-hover">Private Lesson </a>
-              <a class="link link-hover">Hockeys for kids</a>
-              <a class="link link-hover">Hockeys for Adult</a>
+              <p class="link link-hover">Academy</p>
+              <p class="link link-hover">Group Lesson</p>
+              <p class="link link-hover">Private Lesson </p>
+              <p class="link link-hover">Hockeys for kids</p>
+              <p class="link link-hover">Hockeys for Adult</p>
             </nav>
+        </div>
           </footer>
     </footer>
 </body>
